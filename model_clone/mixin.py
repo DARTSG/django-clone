@@ -8,7 +8,6 @@ from django.core.exceptions import ValidationError
 from django.db import IntegrityError, connections, models, transaction
 from django.db.models import SlugField
 from django.utils.text import slugify
-
 from model_clone.apps import ModelCloneConfig
 from model_clone.signals import post_clone_save, pre_clone_save
 from model_clone.utils import (
@@ -279,7 +278,7 @@ class CloneMixin(object):
 
         duplicate = self.__duplicate_m2o_fields(duplicate, using=using)
 
-        pre_clone_save.send(sender=self.__class__, instance=duplicate)
+        pre_clone_save.send(sender=self.__class__, instance=duplicate, old=self)
 
         duplicate.save(using=using)
 
@@ -288,7 +287,11 @@ class CloneMixin(object):
         duplicate = self.__duplicate_m2m_fields(duplicate, using=using)
         duplicate = self.__duplicate_linked_m2m_fields(duplicate)
 
-        post_clone_save.send(sender=self.__class__, instance=duplicate)
+        post_clone_save.send(
+            sender=self.__class__,
+            instance=duplicate,
+            old=self,
+        )
 
         return duplicate
 
