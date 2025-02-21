@@ -1,5 +1,77 @@
 # Changelog
 
+## [v5.3.3](https://github.com/tj-django/django-clone/tree/v5.3.3) (2023-06-12)
+
+[Full Changelog](https://github.com/tj-django/django-clone/compare/v5.3.2...v5.3.3)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#198](https://github.com/tj-django/django-clone/issues/198)
+
+**Merged pull requests:**
+
+- chore\(deps\): update tj-actions/verify-changed-files action to v15 [\#804](https://github.com/tj-django/django-clone/pull/804) ([renovate[bot]](https://github.com/apps/renovate))
+- feat: add support for Django 4.2 [\#803](https://github.com/tj-django/django-clone/pull/803) ([jackton1](https://github.com/jackton1))
+- chore\(deps\): update actions/checkout action to v3.5.3 [\#802](https://github.com/tj-django/django-clone/pull/802) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency django to v4.2.2 [\#801](https://github.com/tj-django/django-clone/pull/801) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated docs [\#800](https://github.com/tj-django/django-clone/pull/800) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Upgraded v5.3.1 → v5.3.2 [\#799](https://github.com/tj-django/django-clone/pull/799) ([jackton1](https://github.com/jackton1))
+- chore\(deps\): update tj-actions/github-changelog-generator action to v1.19 [\#797](https://github.com/tj-django/django-clone/pull/797) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [v5.3.2](https://github.com/tj-django/django-clone/tree/v5.3.2) (2023-05-27)
+
+[Full Changelog](https://github.com/tj-django/django-clone/compare/v5.3.1...v5.3.2)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency asgiref to v3.7.2 [\#796](https://github.com/tj-django/django-clone/pull/796) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency asgiref to v3.7.1 [\#795](https://github.com/tj-django/django-clone/pull/795) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency asgiref to v3.7.0 [\#794](https://github.com/tj-django/django-clone/pull/794) ([renovate[bot]](https://github.com/apps/renovate))
+- \[pre-commit.ci\] pre-commit autoupdate [\#793](https://github.com/tj-django/django-clone/pull/793) ([pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci))
+- chore\(deps\): update codecov/codecov-action action to v3.1.4 [\#792](https://github.com/tj-django/django-clone/pull/792) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency django to v4.2.1 [\#791](https://github.com/tj-django/django-clone/pull/791) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update peter-evans/create-pull-request action to v5.0.1 [\#790](https://github.com/tj-django/django-clone/pull/790) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update codecov/codecov-action action to v3.1.3 [\#789](https://github.com/tj-django/django-clone/pull/789) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency sqlparse to v0.4.4 [\#788](https://github.com/tj-django/django-clone/pull/788) ([renovate[bot]](https://github.com/apps/renovate))
+- \[pre-commit.ci\] pre-commit autoupdate [\#787](https://github.com/tj-django/django-clone/pull/787) ([pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci))
+- Updated docs [\#786](https://github.com/tj-django/django-clone/pull/786) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Updated README.md [\#785](https://github.com/tj-django/django-clone/pull/785) ([jackton1](https://github.com/jackton1))
+- chore\(deps\): update actions/checkout action to v3.5.2 [\#784](https://github.com/tj-django/django-clone/pull/784) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update actions/checkout action to v3.5.1 [\#783](https://github.com/tj-django/django-clone/pull/783) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update codecov/codecov-action action to v3.1.2 [\#782](https://github.com/tj-django/django-clone/pull/782) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated docs [\#781](https://github.com/tj-django/django-clone/pull/781) ([github-actions[bot]](https://github.com/apps/github-actions))
+- chore\(deps\): update peter-evans/create-pull-request action to v5 [\#780](https://github.com/tj-django/django-clone/pull/780) ([renovate[bot]](https://github.com/apps/renovate))
+- \[pre-commit.ci\] pre-commit autoupdate [\#779](https://github.com/tj-django/django-clone/pull/779) ([pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci))
+- chore\(deps\): update dependency django to v4.2 [\#778](https://github.com/tj-django/django-clone/pull/778) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update peaceiris/actions-gh-pages action to v3.9.3 [\#777](https://github.com/tj-django/django-clone/pull/777) ([renovate[bot]](https://github.com/apps/renovate))
+- \[pre-commit.ci\] pre-commit autoupdate \(\#776\)Co-authored-by: pre-commit-ci\[bot\] \<66853113+pre-commit-ci\[bot\]@users.noreply.github.com\> [\#776](https://github.com/tj-django/django-clone/pull/776) ([pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci))
+- chore\(deps\): update actions/checkout action to v3.5.0 [\#775](https://github.com/tj-django/django-clone/pull/775) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated docs [\#774](https://github.com/tj-django/django-clone/pull/774) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Upgraded v5.3.0 → v5.3.1 [\#773](https://github.com/tj-django/django-clone/pull/773) ([jackton1](https://github.com/jackton1))
+
+## [v5.3.1](https://github.com/tj-django/django-clone/tree/v5.3.1) (2023-03-18)
+
+[Full Changelog](https://github.com/tj-django/django-clone/compare/v5.3.0...v5.3.1)
+
+**Merged pull requests:**
+
+- chore\(deps\): update tj-actions/verify-changed-files action to v14 [\#772](https://github.com/tj-django/django-clone/pull/772) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update actions/checkout action to v3.4.0 [\#771](https://github.com/tj-django/django-clone/pull/771) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update peter-evans/create-pull-request action to v4.2.4 [\#770](https://github.com/tj-django/django-clone/pull/770) ([renovate[bot]](https://github.com/apps/renovate))
+- \[pre-commit.ci\] pre-commit autoupdate [\#769](https://github.com/tj-django/django-clone/pull/769) ([pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci))
+- chore\(deps\): update tj-actions/github-changelog-generator action to v1.18 [\#768](https://github.com/tj-django/django-clone/pull/768) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update codacy/codacy-analysis-cli-action action to v4.3.0 [\#767](https://github.com/tj-django/django-clone/pull/767) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated docs [\#766](https://github.com/tj-django/django-clone/pull/766) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Updated README.md [\#765](https://github.com/tj-django/django-clone/pull/765) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#764](https://github.com/tj-django/django-clone/pull/764) ([jackton1](https://github.com/jackton1))
+- chore\(deps\): update pascalgn/automerge-action action to v0.15.6 [\#763](https://github.com/tj-django/django-clone/pull/763) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency django to v4.1.7 [\#762](https://github.com/tj-django/django-clone/pull/762) ([renovate[bot]](https://github.com/apps/renovate))
+- \[pre-commit.ci\] pre-commit autoupdate [\#761](https://github.com/tj-django/django-clone/pull/761) ([pre-commit-ci[bot]](https://github.com/apps/pre-commit-ci))
+- chore\(deps\): update dependency django to v4.1.6 [\#760](https://github.com/tj-django/django-clone/pull/760) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated docs [\#759](https://github.com/tj-django/django-clone/pull/759) ([github-actions[bot]](https://github.com/apps/github-actions))
+- Upgraded v5.2.0 → v5.3.0 [\#758](https://github.com/tj-django/django-clone/pull/758) ([jackton1](https://github.com/jackton1))
+- Updated docs [\#757](https://github.com/tj-django/django-clone/pull/757) ([github-actions[bot]](https://github.com/apps/github-actions))
+
 ## [v5.3.0](https://github.com/tj-django/django-clone/tree/v5.3.0) (2023-01-30)
 
 [Full Changelog](https://github.com/tj-django/django-clone/compare/v5.2.0...v5.3.0)
@@ -11,7 +83,6 @@
 **Closed issues:**
 
 - CVE-2022-40899 \(Medium\) detected in future-0.18.2.tar.gz - autoclosed [\#726](https://github.com/tj-django/django-clone/issues/726)
-- Dependency Dashboard [\#198](https://github.com/tj-django/django-clone/issues/198)
 
 **Merged pull requests:**
 
