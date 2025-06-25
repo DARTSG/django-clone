@@ -4,6 +4,10 @@ on:
   release:
     types: [created]
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -19,7 +23,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.8.x'
+          python-version: '3.13.x'
 
       - name: Upgrade pip
         run: |
@@ -44,7 +48,7 @@ jobs:
           TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
 
       - name: Generate CHANGELOG
-        uses: tj-actions/github-changelog-generator@v1.20
+        uses: tj-actions/github-changelog-generator@v1.21
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
@@ -54,4 +58,4 @@ jobs:
           branch: "chore/upgrade-${{ steps.semver-diff.outputs.old_version }}-to-${{ steps.semver-diff.outputs.new_version }}"
           commit-message: "Upgraded from ${{ steps.semver-diff.outputs.old_version }} → ${{ steps.semver-diff.outputs.new_version }}"
           body: "View [CHANGES](https://github.com/${{ github.repository }}/compare/${{ steps.semver-diff.outputs.old_version }}...${{ steps.semver-diff.outputs.new_version }})"
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
